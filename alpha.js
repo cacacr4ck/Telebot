@@ -39,7 +39,7 @@ async function startalpha() {
             fetchJson
         } = simple
         const pushname = user.full_name;
-        const username = user.username ? user.username : "zeeone_ofc";
+        const username = user.username ? user.username : "ownedbyrain";
         const isCreator = [alpha.botInfo.username, ...global.OWNER].map(v => v.replace("https://t.me/", '')).includes(user.username ? user.username : "-")
         const reply = async (text) => {
             for (var x of simple.range(0, text.length, 4096)) { //maks 4096 character, jika lebih akan eror
@@ -266,7 +266,7 @@ async function startalpha() {
                 inline_keyboard: [
                     [{
                         text: 'Script',
-                        url: "https://github.com/zeeoneofficial/telebot"
+                        url: "https://github.com/cacacr4ck/Telebot"
                     }, {
                         text: 'Owner',
                         url: OWNER[0]
